@@ -14,3 +14,15 @@ const a = prompt("what movie did you watch last?", ""),
 
 personalMovieDB.movies[c] = d;
 console.log(personalMovieDB);
+
+let result = "";
+const maxLen = 7;
+for(let i = 1;i <= maxLen; i++){
+    for(let j = 0; j < i; j++){
+        result += "*";
+
+    }
+
+result += "\n";
+}
+console.log(result);
